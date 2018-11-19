@@ -8,7 +8,7 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-Vue.prototype.$server = `http://localhost:3000`
+Vue.prototype.$server = `https://blog-server.ndiw.online`
 
 // Vue.prototype.$server = axios.create({
 //   baseUrl: 'http://localhost:3000'

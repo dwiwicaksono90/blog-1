@@ -24,7 +24,7 @@ import chitchat from '@/components/chitchat.vue'
 export default {
   data () {
     return {
-      server: `http://localhost:3000`,
+      server: `https://blog-server.ndiw.online`,
       user: null
     }
   },

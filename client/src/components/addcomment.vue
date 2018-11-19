@@ -22,7 +22,7 @@ export default {
     props: ['user', 'articleId'],
     data(){
         return {
-            server: `http://localhost:3000`,
+            server: `https://blog-server.ndiw.online`,
             text: ''
         }
     },

@@ -11,7 +11,7 @@
             <div>
                 share:
             <h5>
-                <a class="twitter-share-button fab fa-twitter fa-stack-1x" :href="`https://twitter.com/intent/tweet?text=${title} http:localhost:3000/articles/` + articleId  "  data-size="large"></a>
+                <a class="twitter-share-button fab fa-twitter fa-stack-1x" :href="`https://twitter.com/intent/tweet?text=${title} https://blog.ndiw.online/articles/` + articleId  "  data-size="large"></a>
             </h5> <br>
             </div>
             
@@ -82,7 +82,7 @@
         },
         data(){
             return {
-                server: `http://localhost:3000`,
+                server: `https://blog-server.ndiw.online`,
                 title: '',
                 author: '',
                 text: '',
